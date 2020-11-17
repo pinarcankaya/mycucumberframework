@@ -1,0 +1,86 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-02T15:02:05.881Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Dress menusunden summer dressesleri listeler",
+        "description": "",
+        "id": "automation-calismasi;dress-menusunden-summer-dressesleri-listeler",
+        "after": [
+          {
+            "result": {
+              "duration": 1871000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19635000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Otomasyon Adimlari:Given user web sayfasinda",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeStepDef.otomasyon_Adimlari_Given_user_web_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6046000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici dresses menusunden summer dresses\u0027e tiklar",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeStepDef.kullanici_dresses_menusunden_summer_dresses_e_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici tsirt sayisini  ve isimlerini ekrana yazdirir",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeStepDef.kullanici_tsirt_sayisini_ve_isimlerini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tsirt"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Calismasi",
+    "description": "",
+    "id": "automation-calismasi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/automation_practice_tekrar.feature",
+    "tags": []
+  }
+]
